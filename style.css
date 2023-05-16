@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Berkshire+Swash&family=Open+Sans:wght@300;400;500&family=Outfit:wght@300;400;600;700&family=Poppins:ital,wght@0,600;1,400&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,400;1,700&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background: url("./imagens/paisagem.png");
+}
+
+
+.container {
+    background-color: #5a9dd46c;
+    box-shadow: 0px 0px 88px 47px rgba(238, 227, 139, 0.621);
+    width: 500px;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 240px auto 0;
+}
+
+.input-task {
+    border: none;
+    border-radius: 8px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #9cf7e64f;
+    box-shadow: 1px 4px 10px rgba(199, 15, 15, 0.2);
+}
+
+::placeholder {
+    color: #fcfcfda8;
+}
+
+.button-add-task {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #3127eba0;
+    color: #fcfcfdc8;
+    font-size: 17px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 2px 6px 15px rgba(199, 15, 15, 0.285);
+}
+
+.button-add-task:hover {
+    opacity: 0.8;
+}
+
+.button-add-task:active {
+    opacity: 0.5;
+}
+
+.list-tasks {
+    width: 100%;
+    list-style: none;
+    margin-top: 50px;
+}
+.tasks{
+    background-color: #5a9dd46c;
+    box-shadow: 1px 4px 10px rgba(199, 15, 15, 0.2);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #fcfcfda8;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.tasks:hover img {
+    opacity: 1;
+}
+
+.tasks:active {
+    opacity: 0.6;
+}
+
+.done {
+    background-color: #5deaa1a0;
+    text-decoration: line-through;
+}
+
+
+  
+  /* Estilos para dispositivos de tela pequena */
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 15px;
+      display: flex;
+    }
+
+   .container {
+    justify-content: center;
+   }
+
+   .input-task {
+    margin-left: 25px;
+   }
+
+    .button-add-task {
+        
+        margin-right: 35%;
+        
+    }
+
+    ::placeholder {
+        text-align: center;
+        text-indent: 0;
+    }
+    .tasks img {
+       height: 20px;
+    }
+
+  }
