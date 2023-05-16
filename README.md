@@ -16,7 +16,7 @@ biblioteca JS
 
 
 O que eu aprendi
-Use esta seção para recapitular alguns de seus principais aprendizados enquanto trabalhava neste projeto. Escrevê-los e fornecer amostras de código das áreas que você deseja destacar é uma ótima maneira de reforçar seu próprio conhecimento.
+ um pouco mais de JavaScript
 
 
 - my linkedin - [Marcos Aurelio](https://www.linkedin.com/in/marcosaureliosl/)
