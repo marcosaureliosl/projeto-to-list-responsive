@@ -26,3 +26,6 @@ O que eu aprendi
 
 Fico agradecido a todos que estão apoiando essa minha nova jornada em especial minha esposa Danielle Rocha
 
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7064123629822779392" height="601" width="504" frameborder="0" allowfullscreen="" title="Publicação incorporada"></iframe>
+
